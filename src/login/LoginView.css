@@ -54,10 +54,7 @@
   width: 100%;
   justify-content: flex-end;
 }
-div{
-  display: "flex";
-  flex: 1;
-}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

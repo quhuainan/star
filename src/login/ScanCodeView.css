@@ -1,0 +1,25 @@
+.bootomAction{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .vertical{
+    background:#F6F9F8;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 350px;
+  }
+
+  .loginTitle{
+    align-self: flex-start;
+    color: #454646;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  div{
+    display: "flex";
+    flex: 1;
+  }
