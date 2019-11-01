@@ -6,7 +6,6 @@ export default class LoginView extends React.Component<any, any> {
    
     render() {
         return (
-            <div>
                 <div className="vertical">
                     <div style={{ position: "relative", alignSelf: "flex-end", width: 52, height: 52, marginBottom: -52 }} onClick={this.props.onSwitch}>
                         <img src={require("../res/erCode.svg")} style={{ width: 52, height: 52, objectFit: "cover", position: 'relative', top: 0, right: 0 }} alt='' />
@@ -35,7 +34,6 @@ export default class LoginView extends React.Component<any, any> {
 
                     </div>
                 </div>
-            </div>
         )
     }
 }

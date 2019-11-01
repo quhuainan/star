@@ -14,16 +14,20 @@ export default class App extends React.Component<any, any> {
   }
   render() {
     return (
-      <div style={{ flex: 1, display: 'flex' }}>
-        {this.state.longinWay === "account" ?
-          <LoginView onSwitch={() => {
-            this.setState({ longinWay: "scanCode" })
-          }} /> : <ScanCodeView onSwitch={() => {
-            this.setState({ longinWay: "account" })
-          }} />}
+      <div style={{ marginTop: 100 }}>
+        <div className='bg' style={{ flex: 1, display: 'flex' }}>
 
+          <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'flex-end' }}  >
+            {this.state.longinWay === "account" ?
+              <LoginView onSwitch={() => {
+                this.setState({ longinWay: "scanCode" })
+              }} /> : <ScanCodeView onSwitch={() => {
+                this.setState({ longinWay: "account" })
+              }} />}
+
+          </div>
+        </div>
       </div>
-
     )
   }
 }
