@@ -17,7 +17,7 @@ export default class App extends React.Component<any, any> {
       <div style={{ marginTop: 100 }}>
         <div className='bg' style={{ flex: 1, display: 'flex' }}>
 
-          <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'flex-end' }}  >
+          <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'flex-end' ,paddingRight:120}}  >
             {this.state.longinWay === "account" ?
               <LoginView onSwitch={() => {
                 this.setState({ longinWay: "scanCode" })

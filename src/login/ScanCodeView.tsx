@@ -4,7 +4,6 @@ import './ScanCodeView.css';
 
 export default class ScanCodeView extends React.Component<any, any> {
 
-
     render() {
         return (
                 <div className="vertical">
@@ -18,8 +17,8 @@ export default class ScanCodeView extends React.Component<any, any> {
                         <div style={{ display: "flex", flex: 1, justifyContent: 'center', alignItems: 'center' }}>
                             <img src={require("../res/code.png")} style={{ width: 140, height: 140 }} />
                         </div>
-                        <div style={{ marginTop:12,flexDirection:'row',flex:"1",display:"flex" }} >
-                            <img src={require("../res/scan.svg")} style={{ width: 24, height: 24 }} />
+                        <div style={{ marginTop:12,flexDirection:'row',flex:"1",display:"flex" ,justifyContent:'center',alignItems:'center'}} >
+                            <img src={require("../res/scan.svg")} style={{ width: 36, height: 36 }} />
                             <div style={{ display: 'flex', marginLeft: 8, flexDirection: "column", justifyContent: "space-betwwen" }}>
                                 <span style={{ fontSize: 12 }}>打开<span style={{ color: "#FF4400" }}>手机浏览器</span></span>
                                 <span style={{ fontSize: 12 }}>扫一扫登录</span>
